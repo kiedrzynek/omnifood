@@ -12,3 +12,13 @@ html {
     font-weight: 300;
     text-rendering: optimizeLegibility;
 }
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../img/hero.jpg);
+    background-position: top left;
+}
