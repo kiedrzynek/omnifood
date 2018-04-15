@@ -85,6 +85,7 @@ h2:after {
 h3 {
     font-size: 110%;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 /* ------PARAGRAPHS------- */
@@ -102,6 +103,7 @@ h3 {
     display: block;
     color: #cf6d17;
     margin: 0 auto 0 10px;
+    text-align: center;
 }
 
 /* ------BUTTONY------- */
