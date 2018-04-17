@@ -20,6 +20,14 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {zoom: 1} /*naprawia floaty obrazków które zerują wysokość sekcji meals*/
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 
 /*------------------------------*/
 /*UŻYWANE NA STRONIE ELEMENTY   */
