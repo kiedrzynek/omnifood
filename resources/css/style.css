@@ -316,8 +316,39 @@ header {
 
 
 
+/*------------------------------*/
+/*CITIES*/
+/*------------------------------*/
 
+.city-box {
+    padding: 1%;
+}
 
+.city-box img {
+    width: 100%;
+    margin-bottom: 10px;
+}
 
+h3 {
+    text-align: left;
+}
 
+.city-box a {
+    color: #cf6d17;
+    text-decoration: none;
+    border-bottom: 1px solid #cf6d17;
+}
 
+.city-box ul {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+.city-box i {
+    color: #cf6d17;
+    margin-right: 15px;
+}
+
+.city-box li {
+    line-height: 150%;
+}
