@@ -1,5 +1,5 @@
 /*Orange color: #cf6d17 */
-
+/* Another Orange color: #e67e22 */
 
 /*------------------------------*/
 /*BASIC SETUP*/
@@ -104,6 +104,26 @@ h3 {
     margin: 0 auto;
 }
 
+
+
+/* ------LINKS------- */
+
+a:link, 
+a:visited {
+    color: #cf6d17;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 1px;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover, 
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
 /* ------ICONS------- */
 
 .icon-big {
@@ -113,6 +133,21 @@ h3 {
     margin: 0 auto 0 10px;
     text-align: center;
 }
+
+.icon-small {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    color: #cf6d17;
+    font-size: 120%;
+    margin-right: 10px;
+    
+    /*secrets to align text and icons*/
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
 
 /* ------BUTTONY------- */
 
@@ -309,6 +344,11 @@ header {
     margin-right: 25px;
 }
 
+.button-app:link,
+.button-app:visited {
+    border: none;
+}
+
 .button-app img {
     height: 50px;
     margin-right: 10px;
@@ -319,9 +359,14 @@ header {
 /*CITIES*/
 /*------------------------------*/
 
+.box img {
+    width: 100%;
+    margin-bottom: 15px;
+}
 
-
-
+.city-feature {
+    margin-bottom: 5px;
+}
 
 
 
