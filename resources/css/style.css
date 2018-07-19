@@ -201,6 +201,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {
@@ -369,4 +370,46 @@ header {
 }
 
 
+/*------------------------------*/
+/*CUSTOMERS*/
+/*------------------------------*/
 
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;       /*zamraża obrazek w tle żeby nie przesuwał się przy scrollowaniu*/
+}
+
+blockquote {
+    padding: 2%;
+    font-style: italic; /*możemy tak określić, bo w indexie mamy pobrane Lato italic*/
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before {
+    content: "\201c";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    
+}
+
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+
+cite img {
+    height: 45px;
+    border-radius: 50%; /*promień zaokrąglenia obramowania*/
+    margin-right: 10px;
+    vertical-align: middle; /*środkuje obrazek wględem w tym przypadku podpisu*/
+}
