@@ -413,3 +413,63 @@ cite img {
     margin-right: 10px;
     vertical-align: middle; /*środkuje obrazek wględem w tym przypadku podpisu*/
 }
+
+/*------------------------------*/
+/*SING UP*/
+/*------------------------------*/
+
+.section-plans {
+    background-color: #f4f4f4;
+}
+
+.plan-box {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 0 2px 2px #efefef; /*cień pod boxem, oś x, oś y, rozmycie, kolor */
+}
+
+.plan-box div {
+    padding: 15px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.plan-box div:first-child {
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.plan-box div:last-child {
+    text-align: center;
+    border: 0;
+}
+
+.plan-price {
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price-meal {
+    font-size: 80%;
+}
+
+.plan-price span {
+    font-size: 30%; /*nie możemy tu dać 100% bo on jest dzieckiem plan-price ktoremu dalismy 300% wiec bedzie mial 300%*/
+    font-weight: 300;
+}
+
+.plan-box ul {
+    list-style-type: none;
+}
+
+.plan-box ul li {
+    padding: 5px 0;
+}
+
+
+
