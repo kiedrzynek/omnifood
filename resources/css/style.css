@@ -8,6 +8,7 @@
 * {
     margin: 0;
     padding: 0;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -116,6 +117,7 @@ a:visited {
     text-decoration: none;
     border-bottom: 1px solid #e67e22;
     padding-bottom: 1px;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -123,6 +125,7 @@ a:hover,
 a:active {
     color: #555;
     border-bottom: 1px solid transparent;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
     transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -162,6 +165,7 @@ input[type=submit] {
     text-decoration: none;
     border-radius: 200px;
     border: 1px solid #e67e22;
+    -webkit-transition: background-color 0.25s, border 0.25s, color 0.25s;
     transition: background-color 0.25s, border 0.25s, color 0.25s;
 }
 
@@ -204,6 +208,7 @@ input[type=submit]:active {
 
 header {
     background-color: skyblue;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
@@ -216,6 +221,7 @@ header {
     width: 1140px;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
@@ -245,6 +251,7 @@ header {
     font-size: 90%;
     padding: 3px 5px;
     border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.25s;
     transition: border-bottom 0.25s;
 }
 
@@ -294,13 +301,18 @@ header {
     opacity: 0.7;
     width: 100%;
     height: auto;
+    -webkit-transform: scale(1.15);
     transform: scale(1.15);
 }
 
 
 .meal-photo img:hover {
+    -webkit-transform: scale(1.032);
     transform: scale(1.032);    /*jak damy 1 to zostaje biała linia*/
+    -webkit-transition: opacity 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
     transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
     opacity: 1;
 }
 
@@ -382,6 +394,7 @@ header {
 /*------------------------------*/
 
 .section-testimonials {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/back-customers.jpg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
     background-size: cover;
     color: #fff;
@@ -434,6 +447,7 @@ cite img {
     border-radius: 5px;
     width: 90%;
     margin-left: 5%;
+    -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef; /*cień pod boxem, oś x, oś y, rozmycie, kolor */
 }
 
@@ -545,6 +559,7 @@ footer li a:visited {
     border-bottom: 0;
     text-decoration: none;
     color: #888;
+    -webkit-transition: color 0.2;
     transition: color 0.2;
 }
 
@@ -564,6 +579,7 @@ footer li a:visited {
 .ion-social-twitter,
 .ion-social-googleplus,
 .ion-social-instagram {
+    -webkit-transition: color 0.2s;
     transition: color 0.2s;
 }
 
