@@ -300,6 +300,19 @@ header {
     margin-top: 18px;
 }
 
+/* Mobile nav */
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 30px;
+    cursor: pointer; /* a nie ma hrefa więc żeby pojawiła się łapka, trzeba dodać cursor:pointer */
+    display: none;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
 
 
 /*------------------------------*/
